@@ -1,0 +1,43 @@
+# include <iostream> 
+using namespace std ;
+main () { 
+int num1,num2,num3 ,num4,num5,num6,num7,num8,num9,num10 ,num11,num12,num13,num14 ,num15 ;
+cout << " NUMBER 1 =" ;
+cin >> num1;
+cout << " NUMBER 2=" ;
+cin >> num2;
+cout << " NUMBER 3 =" ;
+cin >> num3;
+cout << " NUMBER 4 =" ;
+cin >> num4;
+cout << " NUMBER 5 =" ;
+cin >> num5;
+cout << " NUMBER 6 =" ;
+cin >> num6;
+cout << " NUMBER 7 =" ;
+cin >> num7;
+cout << " NUMBER 8 =" ;
+cin >> num8;
+cout << " NUMBER 9 =" ;
+cin >> num9;
+cout << " NUMBER 10 =" ;
+cin >> num10;
+cout << " NUMBER 11 =" ;
+cin >> num11;
+cout << " NUMBER 12 =" ;
+cin >> num12 ;
+cout << " enter number 13  " ;
+cin >> num13  ; 
+cout << " enter number 14 = "; 
+cin >> num14 ;
+cout << " enter number 15 = " ;
+cin >> num15 ; 
+int sum = num1 +num2 + num3 + num4 + num5 ; 
+cout << " sum of first five numbers " << sum<<endl ; 
+int product = num6*num7*num8*num9*num10 ;
+cout << " product of numbers between 5 and 11 " << product <<endl;
+int sub =  num15 -num14 -num13 - num12 -num11 ;
+cout << " substsraction of lst five numbers " << sub<<endl ;
+int finalanswer = (product + sum)- sub ;
+cout << " our final required answer is ="<< finalanswer ;
+}
