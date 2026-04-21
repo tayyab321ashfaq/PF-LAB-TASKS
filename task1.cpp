@@ -1,14 +1,14 @@
-#include <iostream> 
-using namespace std ;
-int main ( ) 
-{ int dollars  , rupees;
-int dollarvalue ;
+#include<iostream>
+using namespace std ; 
+main ()
+{
+     char let = 'a' ;
+   
+    while ( let != 'n')
+  {   
+ cout << "enter any letter  " << endl ;
+    cin >> let ; 
+cout << " i am happy "   ;}
+    cout << " end of program ";
 
-cout << " one Dollar IN rupees =" ;
-cin >> dollarvalue ;
-cout << " The Given Dollars " ;
-cin >> dollars;
-rupees  = dollars*dollarvalue; 
-cout << " The given dollars in rupe " << rupees ;
-return 0 ;
-} 
+}

@@ -1,15 +1,11 @@
-#include <iostream > 
-using namespace std ;
-main ( ) { 
-string name ;
-char section ;
-float rollnum , aggregate;
-cout << " My Name " ;
-cin >> name ; 
-cout << " My Section : " ;
-cin >> section ;
-cout << "My Roll NUMBER : ";
-cin >> rollnum ; 
-cout << "  My Aggregate  : " ;
-cin >> aggregate ; 
-}   
+# include <iostream> 
+using namespace std ; 
+main ()
+{ int sum = 0 ;
+int num = 0 ;
+while (num < 10)
+{ 
+    sum = sum + num ;
+
+num = num +1  ;}
+cout << " result ="<< sum ; }
