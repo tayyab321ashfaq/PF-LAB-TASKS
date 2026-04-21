@@ -1,21 +1,18 @@
-#include<iostream> 
+#include <iostream> 
 using namespace std ;
-main ()
-{
-    int num[5] = { 1,3,4,5,6} ;
-     bool isspecial  = true ;
+  string alphabetcase (char n )
+{ 
+     if ( n == 'a')
+    cout << " the letter  enterd by the user is small";
+    else if ( n == 'A')
+    cout << " the letter enterd by the user is capital ";
+else  cout << " invalid operator " ;
 
-    for ( int i = 0 ; i < 5 ;i++)
-    { if ( i%2 == 0 && num[i]%2 !=  0)
-        { isspecial = false ;
-        break;}
-        else 
-        if ( i%2 != 0 && num[i]%2 == 0)
-        { isspecial = false ;}
+}
+ int main ()
+ { char letter ;
+cout << " enter a letter ";
+cin >> letter ;
 
-    }
-    if ( isspecial == true )
-    cout << " the array is special ";
-else 
-cout << " the array is not special " ;
+cout <<alphabetcase(letter ) ;
 }
